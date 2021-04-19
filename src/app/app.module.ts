@@ -9,6 +9,7 @@ import { GeolocationComponent } from './components/geolocation/geolocation.compo
 import { ScanDocsComponent } from './components/scan-docs/scan-docs.component';
 import { DynamicComponent } from './components/dynamic/dynamic.component';
 import { DynamicDirective } from './components/dynamic/dynamic.directive';
+import { MasksComponent } from './components/masks/masks.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { DynamicDirective } from './components/dynamic/dynamic.directive';
     ScanDocsComponent,
     DynamicComponent,
     DynamicDirective,
+    MasksComponent,
   ],
   imports: [
     BrowserModule,
